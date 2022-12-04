@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>UrbanRacers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/vendor.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+  <body class="page__body">
+    <div class="site-container">
+      <header class="header">
+  <div class="header__wrapper">
+    <div class="header__top top">
+      <div class="top__container container">
+        <div class="top__region">
+          <a href="#"> Регион: Москва</a>
+        </div>
+        <div class="top__right">
+          <a href="tel:+32015287667" class="top__phone">
+            <img src="img/icons/phone.svg" alt="phone" />
+            +32 (0) 15 28 76 67
+          </a>
+          <div class="top__login">
+            <button class="top__user-btn btn-reset">
+              <img src="img/icons/user.svg" alt="user" class="top__user-img" />
+              Личный кабинет
+              <img
+                src="img/icons/arrow-down.svg"
+                alt="user"
+                class="top__user-imgarr"
+                aria-hidden="true"
+              />
+            </button>
+            <ul class="top__user-list list-reset">
+              <li><a class="top__user-link" href="#">Личный кабинет</a></li>
+              <li><a class="top__user-link" href="#">Выйти</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__main main-header">
+      <div class="main-header__container container">
+        <div class="main-header__left">
+          <a href="/" class="main-header__logo logo">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+          <nav class="nav" title="Главное меню" data-menu>
+            <ul class="main-header__list list-reset">
+              <li class="main-header__item">
+                <a href="#" class="main-header__link active" data-menu-item
+                  >Главная</a
+                >
+              </li>
+              <li class="main-header__item">
+                <a href="#" class="main-header__link" data-menu-item>Каталог</a>
+              </li>
+              <li class="main-header__item">
+                <a href="#" class="main-header__link" data-menu-item
+                  >Информация</a
+                >
+              </li>
+              <li class="main-header__item">
+                <a href="#" class="main-header__link" data-menu-item
+                  >Контакты</a
+                >
+              </li>
+              <li class="main-header__item">
+                <a href="#" class="main-header__link" data-menu-item>Еще…</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-header__box">
+          <div class="main-header__box-btns">
+            <a href="#" class="main-header__image">
+              <img src="img/icons/search.svg" alt="search"
+            /></a>
+            <a href="#" class="main-header__image">
+              <img src="img/icons/favorite.svg" alt="favorite"
+            /></a>
+            <a href="#" class="main-header__image main-header__cart">
+              <img src="img/icons/cart.svg" alt="cart"
+            /></a>
+          </div>
+
+          <button class="main-header__button btn btn-reset">
+            Подбор по автомобилю
+          </button>
+          <button
+            class="burger"
+            aria-label="Открыть меню"
+            aria-expanded="false"
+            data-burger
+          >
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <main class="main">
+        <section class="hero">
+  <div class="hero__content">
+    <div class="hero__top top-hero">
+      <div class="top-hero__box">
+        <h2 class="top-hero__title"><span>Urban</span> Racers</h2>
+        <p class="top-hero__descr descr">
+          Интернет-магазин тюнинг-комплектующих для современных автомобилей
+          Audi, Skoda, Seat, Skoda, Porsche, BMW, Mercedes-Benz и др.Мы
+          предлагаем только лучшие товары из Европы и США. Работаем
+          напрямую с заводами, тем самым гарантируя отличные цены
+          и сроки доставки.
+        </p>
+        <button class="top-hero__btn btn btn-reset">Перейти в каталог</button>
+      </div>
+      <div class="top-hero__slider">
+        <div class="swiper hero__slider-main main-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide main-slider__slide">
+              <div class="main-slider__image">
+                <picture>
+                  <source srcset="img/hero/img01.webp" type="image/webp" />
+                  <img
+                    src="img/hero/img01.png"
+                    class="image"
+                    width="1084"
+                    height="610"
+                    alt="машина 1"
+                  />
+                </picture>
+              </div>
+              <div class="main-slider__box">
+                <h4 class="main-slider__title">Скидки на подвеску BC Racing</h4>
+                <div class="main-slider__descr">
+                  <img src="img/hero/img-logo.svg" alt="logo " />
+                  <p class="main-slider__text">до 60%</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide main-slider__slide">
+              <div class="main-slider__image">
+                <picture>
+                  <source srcset="img/hero/img02.webp" type="image/webp" />
+                  <img
+                    src="img/hero/img02.png"
+                    class="image"
+                    width="1084"
+                    height="610"
+                    alt="машина 1"
+                  />
+                </picture>
+              </div>
+              <div class="main-slider__box">
+                <h4 class="main-slider__title">Скидки на подвеску BC Racing</h4>
+                <div class="main-slider__descr">
+                  <img src="img/hero/img-logo.svg" alt="logo " />
+                  <p class="main-slider__text">до 60%</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide main-slider__slide">
+              <div class="main-slider__image">
+                <picture>
+                  <source srcset="img/hero/img02.webp" type="image/webp" />
+                  <img
+                    src="img/hero/img02.png"
+                    class="image"
+                    width="1084"
+                    height="610"
+                    alt="машина 1"
+                  />
+                </picture>
+              </div>
+              <div class="main-slider__box">
+                <h4 class="main-slider__title">Скидки на подвеску BC Racing</h4>
+                <div class="main-slider__descr">
+                  <img src="img/hero/img-logo.svg" alt="logo " />
+                  <p class="main-slider__text">до 60%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-slider__pagination swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="hero__bottom bottom-hero">
+      <div class="bottom-hero__container ">
+        <div class="bottom-hero__box">
+          <h3 class="bottom-hero__title title">Подбор по автомобилю</h3>
+          <p class="bottom-hero__descr descr">
+            Ищите товары сразу для вашего автомобиля, это помжет сильно сузить
+            ассортимент и ускорит выбор товаров.
+          </p>
+        </div>
+        <div class="bottom-hero__right">
+          <div class="bottom-hero__sel">
+            <select
+              name="mark"
+              id="mark"
+              class="select select-mark bottom-hero__sel-mark"
+              aria-label="Выбор марки автомобиля"
+            >
+              <option value="">Выберите марку автомобиля</option>
+              <option value="WV">WV</option>
+              <option value="BMV">BMV</option>
+              <option value="VAZ">VAZ</option>
+            </select>
+          </div>
+          <div class="bottom-hero__sel">
+            <select
+              name="model"
+              id="model"
+              class="select select-model"
+              aria-label="Выбор модели автомобиля"
+            >
+              <option value="">Выберите модель автомобиля</option>
+              <option value="WV">Tiguane</option>
+              <option value="BMV">golf</option>
+              <option value="VAZ">Passat</option>
+            </select>
+          </div>
+          <div class="bottom-hero__sel">
+            <select
+              name="modif"
+              id="modif"
+              class="select select-modif"
+              aria-label="Выбор модификацию автомобиля"
+            >
+              <option value="">Выберите модификацию</option>
+              <option value="WV">170 л. с.</option>
+              <option value="BMV">210 л. с.</option>
+              <option value="VAZ">300 л. с.</option>
+            </select>
+          </div>
+          <button class="bottom-hero__btn btn btn-reset">Подобрать</button>
+        </div>
+      </div>
+    </div>
+    <div class="hero__decor">
+      <picture>
+        <source srcset="img/hero/decor.webp" type="image/webp" />
+        <img
+          src="img/hero/decor.png"
+          class="image"
+          width="1084"
+          height="610"
+          alt="декор в виде машины"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+        <section class="categories">
+  <div class="categories__bg">
+    <picture>
+      <source srcset="img/categories/decor.webp" type="image/webp" />
+      <img
+        src="img/categories/decor.png"
+        class="image"
+        width="814"
+        height="655"
+        alt="декор в виде следов шин"
+      />
+    </picture>
+  </div>
+  <div class="categories__container container">
+    <div class="categories__form form-block">
+      <h3 class="form-block__title">
+        Мы готовы ответить на все ваши вопросы!
+      </h3>
+      <form action="#" class="form-block__form form" method="POST">
+        <label class="form__label"
+          >Email
+          <input
+            class="form__input input-mail"
+            type="email"
+            data-validate-field="email"
+            name="Email"
+            placeholder="example@email.com"
+          />
+        </label>
+        <label class="form__label">
+          Телефон
+          <input
+            class="form__input input-name input-tel"
+            type="tel"
+            data-validate-field="tel"
+            name="tel"
+            placeholder="+7&nbsp; 888&nbsp; 888&nbsp; 88&nbsp; 88"
+          />
+        </label>
+        <button type="submit" class="form__button btn btn-reset">
+          <span>Задать вопрос</span>
+        </button>
+      </form>
+    </div>
+    <div class="categories__body">
+      <div class="categories__box">
+        <h3 class="categories__title title">Категории товаров</h3>
+        <p class="categories__descr descr">
+          Выберите категорию котоаря вас интересует. Тут есть все —
+          от ГБЦ до футболки с логотипом БМВ
+          М повер-рейнджерс
+        </p>
+        <div class="categories__opt">
+          <img src="img/categories/btnFon01.png" alt="fon" />
+          <p class="categories__text">Показать все товары</p>
+          <a href="#" class="categories__opt-link"
+            >Перейти в каталог   ></a
+          >
+        </div>
+        <div class="categories__opt">
+          <img src="img/categories/btnFon02.png" alt="fon" />
+          <p class="categories__text">Не знаете что выбрать?</p>
+          <a href="#" class="categories__opt-link"
+            >Получить консультанцию   >
+          </a>
+        </div>
+      </div>
+      <div class="categories__content">
+        <ul class="categories__list list-reset">
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img
+                src="img/categories/card/img01.svg"
+                alt="Трубины и турбокомплекты"
+              />
+              <span>Трубины и турбокомплекты</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img
+                src="img/categories/card/img02.svg"
+                alt="Тормоза и тормозные системы"
+              />
+              <span>Тормоза и тормозные системы</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img03.svg" alt="Охлаждение" />
+              <span>Охлаждение</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img04.svg" alt="Подвеска" />
+              <span>Подвеска</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img05.svg" alt="Подарки и мерч" />
+              <span>Подарки и мерч</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img06.svg" alt="Другое" />
+              <span> Другое </span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img07.svg" alt="Двигатель" />
+              <span>Двигатель</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img08.svg" alt="Трансмиссия" />
+              <span>Трансмиссия</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img
+                src="img/categories/card/img09.svg"
+                alt="Топливные системы"
+              />
+              <span>Топливные системы</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img
+                src="img/categories/card/img10.svg"
+                alt="Интерьер и экстерьер"
+              />
+              <span>Интерьер и экстерьер</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img11.svg" alt="Шины и диски" />
+              <span>Шины и диски</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img
+                src="img/categories/card/img12.svg"
+                alt="Оригинальные запчасти"
+              />
+              <span>Оригинальные запчасти</span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img
+                src="img/categories/card/img13.svg"
+                alt="Выпускная система"
+              />
+              <span>Выпускная система </span>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="#" class="categories__link">
+              <img src="img/categories/card/img14.svg" alt="Впускная система" />
+              <span>Впускная система</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <section class="act">
+  <div class="act__bg">
+    <picture>
+      <source srcset="img/blog/bg-blog.webp" type="image/webp" />
+      <img src="img/blog/bg-blog.png" alt="декор в виде машины" />
+    </picture>
+  </div>
+  <div class="act__content">
+    <h3 class="act__title">Актуальное</h3>
+    <div class="tabs" data-tabs="tab">
+      <ul class="tabs__nav list-reset">
+        <li class="tabs__nav-item">
+          <button class="tabs__nav-btn btn-reset" type="button">Все</button>
+        </li>
+        <li class="tabs__nav-item">
+          <button class="tabs__nav-btn btn-reset" type="button">Новости</button>
+        </li>
+        <li class="tabs__nav-item">
+          <button class="tabs__nav-btn btn-reset" type="button">Акции</button>
+        </li>
+      </ul>
+      <div class="tabs__content">
+        <div class="tabs__panel panel-tabs">
+          <ul class="panel-tabs__list list-reset">
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog02.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog02.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog02.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog02.png" alt="новость4" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+        <div class="tabs__panel">
+          <ul class="panel-tabs__list list-reset">
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog02.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog02.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+        <div class="tabs__panel">
+          <ul class="panel-tabs__list list-reset">
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog01.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog01.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+            <li>
+              <article class="panel-tabs__item">
+                <a href="#" class="panel-tabs__image">
+                  <picture>
+                    <source
+                      srcset="img/blog/img-blog02.webp"
+                      type="image/webp"
+                    />
+                    <img src="img/blog/img-blog02.png" alt="новость1" />
+                  </picture>
+                </a>
+                <h4 class="panel-tabs__title">
+                  Ломается ли ваг? После тюнинга
+                </h4>
+                <p class="panel-tabs__descr">
+                  Все что вы хотели спросить, но боялись. Расказываем, что будет
+                  с вашим поло после stage 3 REVO
+                </p>
+                <div class="panel-tabs__bottom">
+                  <div class="panel-tabs__date">12 января</div>
+                  <a href="#" class="panel-tabs__link">Видеоблог</a>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      </main>
+      <footer class="footer">
+  <div class="footer__container container">
+    <div class="footer__form form-block">
+      <h3 class="form-block__title">
+        Мы готовы ответить на все ваши вопросы!
+      </h3>
+      <form action="#" class="form-block__form form" method="POST">
+        <label class="form__label"
+          >Email
+          <input
+            class="form__input input-mail"
+            type="email"
+            data-validate-field="email"
+            name="Email"
+            placeholder="example@email.com"
+          />
+        </label>
+        <label class="form__label">
+          Телефон
+          <input
+            class="form__input input-name input-tel"
+            type="tel"
+            data-validate-field="tel"
+            name="tel"
+            placeholder="+7&nbsp; 888&nbsp; 888&nbsp; 88&nbsp; 88"
+          />
+        </label>
+        <button type="submit" class="form__button btn btn-reset">
+          <span>Задать вопрос</span>
+        </button>
+      </form>
+    </div>
+    <div class="footer__main">
+      <div class="footer__top top-footer">
+        <div class="top-footer__column">
+          <a href="/" class="top-footer__logo logo">
+            <img src="img/logo.svg" alt="logo" />
+          </a>
+          <ul class="top-footer__social list-reset">
+            <li class="top-footer__social-item">
+              <a
+                href="#"
+                target="_blank"
+                class="top-footer__social-link"
+                aria-label="instagram"
+                ><img src="img/icons/inst.svg" alt="instagram" />
+              </a>
+            </li>
+            <li class="top-footer__social-item">
+              <a
+                href="#"
+                target="_blank"
+                class="top-footer__social-link"
+                aria-label="youtube"
+                ><img src="img/icons/youtube.svg" alt="youtube"
+              /></a>
+            </li>
+            <li class="top-footer__social-item">
+              <a
+                href="#"
+                target="_blank"
+                class="top-footer__social-link"
+                aria-label="telegram"
+                ><img src="img/icons/telegram.svg" alt="telegram"
+              /></a>
+            </li>
+          </ul>
+          <p class="top-footer__descr">
+            Интернет-магазин тюнинг-комплектующих для современных автомобилей
+            Audi, Skoda, Seat, Skoda, Porsche, BMW, Mercedes-Benz и др.Мы
+            предлагаем только лучшие товары из Европы и США. Работаем
+            напрямую с заводами, тем самым гарантируя отличные цены
+            и сроки доставки.
+          </p>
+        </div>
+        <div class="top-footer__column top-footer__column-list">
+          <div class="top-footer__title">Страницы</div>
+          <ul class="top-footer__list list-reset">
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Главная</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Контакты</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Каталог</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Партнеры</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Актуальное</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Подбор по автомобилю</a>
+            </li>
+          </ul>
+        </div>
+        <div class="top-footer__column top-footer__column-list">
+          <div class="top-footer__title">Для покупателей</div>
+          <ul class="top-footer__list list-reset">
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Доставка</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Оплата</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Возврат</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Партнеры</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Личный кабинет</a>
+            </li>
+          </ul>
+        </div>
+        <div class="top-footer__column top-footer__column-list">
+          <div class="top-footer__title">Информация</div>
+          <ul class="top-footer__list list-reset">
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Статьи</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Видеообзоры</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Бренды</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Установочные центры</a>
+            </li>
+          </ul>
+        </div>
+        <div class="top-footer__column top-footer__column-list">
+          <div class="top-footer__title">Правила</div>
+          <ul class="top-footer__list list-reset">
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Куки</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Правила</a>
+            </li>
+            <li class="top-footer__item">
+              <a href="#" class="top-footer__link">Правила</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom bottom-footer">
+        <div class="bottom-footer__btns">
+          <button class="bottom-footer__btn bottom-footer__btn-1 btn-reset">
+            Вход
+          </button>
+          <button class="bottom-footer__btn bottom-footer__btn-2 btn-reset">
+            Регистрация
+          </button>
+        </div>
+        <p class="bottom-footer__copy">© 2022 UrbanRacers</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
+</html>
